@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap'); 
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color:#2E0249 ;
+    color: azure;
+    
+}
+h3{
+    font-size:xx-large;
+    letter-spacing: 2px;;
+}
+.content{
+    margin: auto;
+    text-align: center;
+}
+input{
+    background-color: #7F8487;
+    border-radius: 1rem;
+    width:25vw;
+    padding: 1rem;
+    margin: 0.5rem;;
+}
+
+select{
+    border-radius: 1rem;
+    background-color: #3D2C8D;
+    padding: 0.5rem;
+    color: antiquewhite;
+}
+#submit-btn{
+    background-color: #160122;
+    color: azure;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: large;
+    border: none;
+}
+#submit-btn:hover{
+    background-color: #51226d;
+    color: black;
+}
+
+.image .loading{
+    margin: auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #39065A;
+  border-right: 16px solid #6A0572;
+  border-bottom: 16px solid #9A0F98;
+  border-left: 16px solid #EA0599;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

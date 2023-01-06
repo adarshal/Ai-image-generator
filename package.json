@@ -1,0 +1,18 @@
+{
+  "name": "ai-img-maker",
+  "version": "1.0.0",
+  "description": "Ai img genrator based on inpust given ,using openAi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "adarshal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
+}
