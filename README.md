@@ -1,4 +1,5 @@
 # Ai-image-generator
+See deployment> https://ai-img.onrender.com/
 Ai, nodejs, express ,OpenAi.
 Using OpenAi tools ,it gives imaged based on given description.
 
